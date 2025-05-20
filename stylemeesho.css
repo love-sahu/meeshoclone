@@ -1,0 +1,203 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+nav{
+  display: flex;
+ justify-content: center;
+ align-items: center;
+  height: 10vh;
+  border: 1px solid rgb(195, 191, 191);
+  
+}
+.logo{
+  width: 15%;
+  height: 10vh;
+  /* border: 1px solid rgb(125, 120, 120); */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0;
+}
+.logo>div>img{
+  position: relative;
+  left: 15%;
+  width: 70%;
+  height: 100%;
+ 
+}
+.logo>div{
+  position: relative;
+  /* left: 10%; */
+}
+.search{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 10%;
+  height: 100%;
+  /* border: 1px solid red; */
+  font-size: 16px;
+}.inputSection{
+  display: flex;
+  /* justify-content: center; */
+  align-items: center;
+  width: 100%;
+  height: 60%;
+  border: 1px solid rgb(195, 191, 191);
+  border-radius: 5px;
+}
+.naviteminput{
+  width: 40%;
+  height: 100%;
+  /* border: 1px solid rgb(190, 0, 0); */
+  display: flex;
+  /* justify-content: center; */
+  align-items: center;
+  padding: 0;
+}
+.inputSection>input {
+  height: 25px;
+  width:100% ;
+  border: none;
+ outline: none;
+}
+
+.midbox{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 40%;
+  /* border: 1px solid black; */
+}
+.navitem1{
+  display: flex;
+  justify-content:center;
+  align-items: center;
+  /* border: 1px solid black; */
+  font-size: 16px;
+  height: 100%;
+}
+/* .vl {
+  border-left: 6px rgb(182, 182, 182) solid;
+  width: 0;
+  height: 70%;
+  font-size: 1rem;
+} */
+ .navitem2{
+  display: flex;
+  justify-content:space-between;
+  align-items: center;
+  /* border: 1px solid black; */
+  font-size: 16px;
+  height: 100%;
+  width: 12%; 
+  padding: 0 20px 0 0;
+ }
+ .navitem2>div{
+height: 100%;
+display: flex;
+justify-content:center ;
+align-items: center;
+/* border: 1px solid black; */
+font-size: 16px;
+ }
+section{
+  display: block;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+.fa-regular{
+margin-left:10px ;
+ /* border: 1px solid black; */
+ width: 100%;
+}
+.fa-solid{
+  margin-right: 7px;
+  font-size: 20px;
+}
+.section2{
+  width: 100%;
+  height:8vh ;
+  border: 1px solid gray;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.section2>div{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100%;
+  width: 90%;
+      /* gap: 24px;
+    overflow-x: auto; 
+    scroll-behavior: smooth;
+    scrollbar-width: none;  */
+}
+
+.thirdsection img{
+width: 100%;
+height:30%;
+}
+.fsec{
+  justify-content: center;
+  display: flex;
+  align-items: center;
+     background: rgb(253, 238, 250);
+  height: 10vh;
+  
+}
+.forthsection{
+  width: 98%;
+  height: 6vh;
+  border-radius: 7px;
+   border: 1px solid rgb(245, 189, 234);;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   background-color: rgb(255, 255, 255);
+}
+
+.forthsection>div{
+/* border: 1px solid; */
+padding-left: 50px;
+
+}
+.cardsection{
+  display: flex;
+  /* justify-content: space-around; */
+align-items: center;
+padding: 3%;
+background-color: rgb(255, 255, 255);
+
+}
+.cardsection>div{
+ width: 180px;
+ height: 180px;
+ /* border: 1px solid; */
+ display: block;
+ justify-content: space-around;
+ align-items: center;
+ margin: 0 10px 0 20px;
+}
+.cardsection>div>p{
+  margin-left: 25%;
+  padding-top:20px;
+}
+/* .emage{
+ 
+  border-radius: 50% 50% 10% 10%;
+  width: 100%;
+  height: 80%;
+  background-color: rgb(253, 238, 250);
+  display: block;
+  align-items: center;
+  justify-content: center;
+} */
+
+    /* gap: 24px;
+    overflow-x: auto;
+    scroll-behavior: smooth;
+    scrollbar-width: none; 
