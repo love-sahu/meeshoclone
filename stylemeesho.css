@@ -163,6 +163,9 @@ display: block;
   border:none;
   color:rgb(91, 0, 91)
 }
+button:hover{
+  cursor: pointer;
+}
 .fsec{
   justify-content: center;
   display: flex;
