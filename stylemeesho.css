@@ -131,10 +131,20 @@ margin-left:10px ;
   align-items: center;
   height: 100%;
   width: 90%;
+  overflow-x: auto;
+  white-space: nowrap;
+  scrollbar-width: none;
       /* gap: 24px;
     overflow-x: auto; 
     scroll-behavior: smooth;
     scrollbar-width: none;  */
+}
+.section2>div>div{
+  padding: 0 10px;
+}
+.section2>div>div:hover{
+  color: rgb(159, 32, 137);
+  text-decoration: underline;
 }
 .thirdsection{
   display: inline-block;
