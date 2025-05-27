@@ -125,6 +125,9 @@ margin-left:10px ;
   display: flex;
   justify-content: center;
   align-items: center;
+  position: relative;
+  z-index: 100;
+
 }
 .section2>div{
   display: flex;
@@ -135,14 +138,69 @@ margin-left:10px ;
   overflow-x: auto;
   white-space: nowrap;
   scrollbar-width: none;     
- 
 }
+    .dropdown {
+      height: 100%;
+      display:flex;
+      justify-content: center;
+      align-items: center;
+      /* text-decoration: none; */
+    }
+    .dropdown a{
+      /* text-decoration: none; */
+      /* color: black;  */
+    } 
+    
+   .dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #fff;
+  top: 90%;
+  left:5%;
+  min-width:90%;
+  /* box-shadow: 0 2px 8px rgba(0,0,0,0.15); */
+  z-index:1 ; 
+}
+.listsofitems{
+  display: flex;
+  text-decoration: none;
+}
+.listsofitems p{
+  position: relative;
+  left: 10px;
+  padding-top: 10px;
+}
+.listsofitems ul{
+  position: relative;
+  left: 10px;
+  padding: 1px 25px 0 0;
+  display: block;
+}
+    .dropdown-content a {
+      text-decoration: none;
+      display: block;
+      padding: 10px;
+      color: #333;
+    }
+    .dropdown-content a:hover {
+    color: black;
+    }
+
+    .dropdown:hover .dropdown-content {
+      display: block;
+    }
+ .two{
+  background-color: rgb(244, 244, 255);
+ }
+
 .section2>div>div{
   padding: 0 10px;
 }
 .section2>div>div:hover{
   color: rgb(159, 32, 137);
   text-decoration: underline;
+  text-underline-offset: 12px;
+  text-decoration-thickness: 2px;
 }
 .thirdsection{
   display: inline-block;
